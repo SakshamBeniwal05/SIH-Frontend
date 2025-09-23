@@ -4,7 +4,7 @@ import { IconBatteryVerticalFilled, IconAntennaBars5, IconNumber10Small, IconNum
 
 const Mobile = ({children}) => {
     return (
-        <div className='h-[800px] w-[500px] border-2 rounded-3xl bg-[#1a191978] px-2'>
+        <div className='h-[800px] w-[480px] border-2 rounded-3xl bg-[#1a191978] px-2'>
             <div className='flex justify-between pt-4'>
                 <div className='flex'>
                     <IconNumber10Small />:
