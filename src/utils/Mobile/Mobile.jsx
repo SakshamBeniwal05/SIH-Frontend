@@ -15,7 +15,7 @@ const Mobile = ({children}) => {
                     <IconBatteryVerticalFilled />
                 </div>
             </div>
-            <div className='bg-[red] my-2'>
+            <div className='h-[748px] bg-[#D7ECFE] rounded-b-2xl  overflow-y-auto scrollbar-hide'>
                 {children}
             </div>
         </div>
