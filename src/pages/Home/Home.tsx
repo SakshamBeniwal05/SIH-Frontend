@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='pt-1 bg-[#a2d2ff] h-full flex justify-center'>
+      
+    </div>
   )
 }
 
