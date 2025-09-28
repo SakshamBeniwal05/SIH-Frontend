@@ -20,6 +20,7 @@
     "framer-motion": "^12.23.22",
     "iconsax-react": "^0.0.8",
     "lucide-react": "^0.544.0",
+    "primereact": "^10.9.7",
     "react": "^19.1.1",
     "react-aria-components": "^1.12.2",
     "react-day-picker": "^9.11.0",

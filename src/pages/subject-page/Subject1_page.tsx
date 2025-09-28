@@ -3,6 +3,7 @@ import { IconMenu2 } from "@tabler/icons-react";
 import { DemoMiniCalendar } from "@/Utils/Calendar";
 import Expand_assignment from "@/Utils/Expand_assignment";
 import Expand_notes from "@/Utils/Expand_notes";
+import { Link } from "react-router-dom";
 
 const Subject1_page = () => {
   // track which section is open
@@ -14,9 +15,11 @@ const Subject1_page = () => {
 
   return (
     <div className="pt-1 bg-[#a2d2ff] h-full">
-      <div className="m-4">
-        <IconMenu2 size={"40px"} stroke={2} />
-      </div>
+      <Link to={"/home"}>
+        <div className="m-4">
+          <IconMenu2 size={"40px"} stroke={2} />
+        </div>
+      </Link>
 
       <div className="mx-2 bg-blue-300 p-5 flex justify-center items-center flex-col gap-5 rounded-2xl mb-5">
         <h1 className="text-3xl font-bold">Attendance</h1>
@@ -36,7 +39,7 @@ const Subject1_page = () => {
 
       <div className="mx-2 bg-blue-300 p-5 flex justify-center items-center flex-col gap-5 rounded-2xl mb-5">
         <Expand_notes
-          label={"Notes"}
+          label={"Lecture Notes"}
           isOpen={openSection === "notes"}
           onToggle={() => handleToggle("notes")}
         />
