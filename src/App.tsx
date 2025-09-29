@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       <Android>
-        <Outlet/>
+        {/* <Outlet/> */}
+        
       </Android>
     </>
   )
